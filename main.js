@@ -20,7 +20,7 @@ pct.innerHTML = p1;
 pay.innerHTML = share;
 
 
-alert("Discount purchase")
+alert("Discount purchase calculation")
 
 let cus = prompt("purchase");
 let pur1 = parseInt(cus);
@@ -37,54 +37,36 @@ let newDC3 = (pur1 - thirtyDC)
 
 
 if (pur1 < userpur1) {
+    console.log(pur1)
     console.log("you have a 10% discount")
     console.log(tenDC)
     console.log(newDC1)
     aop.innerHTML= pur1; 
-    dis1.innerHTML =newDC1 
-        
-}
+    dis1.innerHTML =tenDC 
+    dis2.innerHTML =newDC1 
+
+   
+    
+} 
 else if ((pur1 > userpur1) && (pur1 < userpur2)) {
+    console.log(pur1)
     console.log("you have 20% discount")
     console.log(twentyDC)
     console.log(newDC2)
     aop.innerHTML= pur1;  
-    dis1.innerHTML =newDC2 
+    dis1.innerHTML =twentyDC
+    dis2.innerHTML =newDC2 
+
 
 
 }
 else if (pur1 >= userpur2) {
+    console.log(pur1)
     console.log("you have 30% dicount")
     console.log(thirtyDC)
     console.log(newDC3)
     aop.innerHTML= pur1; 
-    dis1.innerHTML =newDC3
-
+    dis1.innerHTML =thirtyDC
+    dis2.innerHTML =newDC3 
 
 }
-
-// let y = 4
-// let z = 15
-// if (y == z ){
-//     console.log("Hello World!")
-// }
-
-// else if (y > z){
-//     console.log("Greater")
-// }
-
-// else if (y < z){
-//     console.log("Less")
-// }
-// else{
-//     console.log("Plan B executed")
-// }
-// const data = {
-//     "total" : {
-//         "bill": b1,
-//         "friend": f1,
-//          "percentage": p1,
-//     }
-
-// }
-// console.log(data);
