@@ -1,3 +1,24 @@
+alert("EVEN OR ODD")
+
+let even = prompt("")
+
+let Even1 = parseInt(even)
+
+
+if (Even1 % 2 == 0) {
+
+    alert("your number is even")
+}
+else if (Even1 % 2 == 1) {
+
+    alert("your number is odd")
+}
+
+else {
+    alert("invalid")
+    
+}
+
 alert("Welcome to my JScalculation")
 
 let b1 = prompt("total bill");

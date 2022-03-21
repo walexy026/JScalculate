@@ -7,5 +7,8 @@ body {
   text-transform: uppercase;
   -webkit-text-decoration: solid;
           text-decoration: solid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */
